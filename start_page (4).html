@@ -42,6 +42,22 @@
 a[href*="preply.com"][href*="french-tutors"]:hover {
   color: var(--c-orange) !important;
 }
+
+article .subsection-group {
+  border: 3px solid var(--c-cyan);
+  border-radius: 10px;
+  background: var(--c-background-highlights);
+  margin: 0 0 0 0; /* Remove top and bottom margin */
+  padding: 16px 18px;
+}
+
+article .subsection-group + .subsection-group {
+  margin-top: -8px; /* Slight overlap for seamless look */
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+
     </style>
 
   </head>
@@ -79,6 +95,19 @@ a[href*="preply.com"][href*="french-tutors"]:hover {
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Donec a diam lectus. Set sit amet ipsum mauris. Maecenas congue ligula as quam viverra nec consectetur ant hendrerit. Donec et mollis dolor. Praesent et diam eget libero egestas mattis sit amet vitae augue. Nam tincidunt congue enim, ut porta lorem lacinia consectetur.<br>
         <a href="https://preply.com/en/online/french-tutors/adults?campaignid=376616492&network=o&adgroupid=1136895768126352&keyword=french%20course%20for%20adults&matchtype=e&creative=&targetid=kwd-71056677602056:loc-9&placement=&loc_physical_ms=122438&device=c&hsa_acc=6909028442&hsa_cam=376616492&hsa_grp=1136895768126352&hsa_ad=&hsa_src=o&hsa_tgt=kwd-71056677602056:loc-9&hsa_kw=french%20course%20for%20adults&hsa_mt=e&hsa_net=adwords&hsa_ver=3&msclkid=22adeb0761281ad6826f83adcb276f0a&utm_source=bing&utm_medium=cpc&utm_campaign=stu_sem_generic_web_0_eng_xx_multiplesub_ex-aus-nzl&utm_term=french%20course%20for%20adults&utm_content=french_course_method_ex" target="_blank" rel="noopener">French Course for Adults</a><br>
         </p>
+
+      <div class="subsection-group">
+          <h3>Subsection</h3>
+          <p>Donec ut librero sed accu vehicula ultricies a non tortor. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aenean ut gravida lorem. Ut turpis felis, pulvinar a semper sed, adipiscing id dolor.</p>
+          <p>Pelientesque auctor nisi id magna consequat sagittis. Curabitur dapibus, enim sit amet elit pharetra tincidunt feugiat nist imperdiet. Ut convallis libero in urna ultrices accumsan. Donec sed odio eros.</p>
+        </div>
+
+         <div class="subsection-group">
+          <h3>Another subsection</h3>
+          <p>Donec viverra mi quis quam pulvinar at malesuada arcu rhoncus. Cum soclis natoque penatibus et manis dis parturient montes, nascetur ridiculus mus. In rutrum accumsan ultricies. Mauris vitae nisi at sem facilisis semper ac in est.</p>
+          <p>Vivamus fermentum semper porta. Nunc diam velit, adipscing ut tristique vitae sagittis vel odio. Maecenas convallis ullamcorper ultricied. Curabitur ornare, ligula semper consectetur sagittis, nisi diam iaculis velit, is fringille sem nunc vet mi.</p>
+        </div>
+      </article>
 
         <h3>Subsection</h3>
 
